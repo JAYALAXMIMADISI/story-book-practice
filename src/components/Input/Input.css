@@ -1,0 +1,21 @@
+.input{
+    /* background-color: #f5f6f6; */
+    border: 2px solid blue;
+}
+
+.small{
+height: 50px;
+margin: 20px;
+
+}
+
+.medium{
+    height: 60px;
+    margin: 20px;
+
+}
+
+.large{
+    height: 70px;
+    margin: 20px;
+}
