@@ -1,0 +1,17 @@
+.error{
+height: 50px;
+border-radius: 10px;
+position: relative;
+top: 0;
+bottom: 20%;
+color: red;
+}
+
+.success{
+height: 50px;
+border-radius: 10px;
+position: relative;
+top: 0;
+bottom: 20%;
+color: black;
+}
