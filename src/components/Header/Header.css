@@ -1,0 +1,21 @@
+.header{
+   padding: 10px;
+   border-radius: 10px;
+}
+
+
+
+.small{
+background-color: blue;
+text-align: center;
+}
+
+.medium{
+background-color: green;
+text-align: center;
+}
+
+.large{
+background-color: #f5f6f6;
+text-align: center;
+}

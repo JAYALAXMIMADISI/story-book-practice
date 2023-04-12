@@ -6,6 +6,13 @@ import "@storybook/addon-console";
 import { withConsole } from "@storybook/addon-console";
 import { withKnobs } from "@storybook/addon-knobs";
 import { withA11y } from "@storybook/addon-a11y";
+// import { muiTheme } from 'storybook-addon-material-ui'
+
+
+
+
+
+
 
 addDecorator((story) => (
   <ThemeProvider theme={theme}>
@@ -17,6 +24,7 @@ addDecorator((story) => (
 addDecorator((story, context) => withConsole()(story)(context));
 addDecorator(withKnobs);
 addDecorator(withA11y);
+// addDecorator(muiTheme())
 
 // export const decorators = [
 //   (Story) => {
@@ -35,6 +43,9 @@ export const parameters = {
     matchers: {
       color: /(background|color)$/i,
       date: /Date$/,
+    },
+    chakra: {
+      theme,
     },
     options: {
       storySort: (a, b) =>

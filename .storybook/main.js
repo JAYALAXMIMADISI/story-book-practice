@@ -9,8 +9,12 @@ module.exports = {
     "@storybook/addon-interactions",
     "@storybook/preset-create-react-app",
     "@storybook/addon-knobs",
-    "@storybook/addon-a11y"
+    "@storybook/addon-a11y",
+    '@chakra-ui/storybook-addon'
   ],
+  features: {
+    emotionAlias: false,
+  },
   "framework": "@storybook/react",
   "core": {
     "builder": "@storybook/builder-webpack5"
